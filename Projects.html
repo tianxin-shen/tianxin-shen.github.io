@@ -6,17 +6,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-
         .bold {
             font-weight: bold;
         }
-    
+
         .text {
             color: #272626;
             font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
             font-weight: normal;
         }
-        .text.bodytext{
+
+        .text.bodytext {
             text-indent: 50px;
             letter-spacing: 0.3px;
             line-height: 1.2;
@@ -27,17 +27,33 @@
 
         .column {
             float: left;
-            margin-top: 40px;
-        }
-
-        .column.projectpic {
             width: 30%;
+            
         }
 
-        .column.projecttext {
-            width: 53%
+        .projectpic {
+            margin-top: 20px;
+            margin-bottom: 30px;
+            margin-left:15px;
+            margin-right:15px;
+            padding: 10px 10px 10px 10px;
         }
 
+        
+
+        div.polaroid {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            text-align: center;
+        }
+
+        div.container {
+            padding: 10px;
+        }
+
+        .polaroid:hover{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.52);
+        }
+        
         .row:after {
             content: "";
             display: table;
@@ -54,30 +70,32 @@
         .bannertext {
             position: absolute;
             color: white;
-            top:-8px;
+            top: -8px;
             width: 100%;
             font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
             font-size: 48px;
             padding-left: 17.5%;
             padding-top: 3.86%;
         }
-        
-        .sline{
-            padding-left: 15%; 
-            
-            
+
+        .sline {
+            padding-left: 15%;
+
+
         }
 
-        .sline.thick{
+        .sline.thick {
             opacity: 0.8;
-            padding-top:100px;
+            padding-top: 100px;
             padding-bottom: 100px;
         }
 
-        .sline.normal{
+        .sline.normal {
             padding-top: 40px;
             opacity: 0.2;
         }
+
+        
 
         ul {
             list-style-type: none;
@@ -131,156 +149,71 @@
         <!-- Navbar -->
         <ul class="text">
             <li><a href="#aboutme">About me</a></li>
-            <li><a class="active" href="#researches">Researches</a></li>
-            <li><a href="#projects">Projects</a></li>
+            <li><a href="#researches">Researches</a></li>
+            <li><a class="active" href="#projects">Projects</a></li>
             <li><a href="#activities">Activities</a></li>
         </ul>
     </div>
 
 
 
-    <!-- Section 1: Conference Proceeding -->
+    <!-- Section 1: Robotics Related -->
     <h2 class="text" style="padding-left: 10.72%;">
-        Conference Proceedings
+        Robotics Related
     </h2>
 
 
-        <!-- Projects-->
-        <div class="row">
-             <div class="column projectpic" style="padding-left:10%">
-                <img src="IMG_-2@2x.png" alt="my picture" width=80%>
+    <!-- Projects-->
+    <div class="row">
+        <div class="column" style="padding-left:20%">
+            <!-- Projects Pictures Column 1-->
+            <div class="projectpic polaroid">
+                <img src="IMG_-2@2x.png" alt="my picture" width=100%>
+                <div class="container">
+                    <p>Hardanger, Norway</p>
+                  </div>
             </div>
 
-            <div class="column projecttext text bodytext">
-                Firstly, don't wish them twice. You would obviously wish the panel while entering the room. It's unnecessary
-                for you to do it again while you introduce yourself.
-                Also, remember that if the interviewer has wished you by your name, don't repeat it by starting your
-                introduction with your name again. But if you wish to let them know your complete name, you can do so.
-                Ensuring that you take care of these two points showcases that you are not merely parroting a memorized
-                answer.
-            </div>
-        </div>
-        
-        <!-- Seperate Line-->
-        <div class="sline normal">
-            <img src="IMG_-4@2x.png" width=90%>
-        </div>
-
-
-        <!-- Projects-->
-        <div class="row">
-            <!-- Picture of the Project-->
-            <div class="column projectpic" style="padding-left:10%">
-               <img src="IMG_-2@2x.png" alt="my picture" width=80%>
-           </div>
-           <!-- Introduction of the Project-->
-           <div class="column projecttext text bodytext">
-               Firstly, don't wish them twice. You would obviously wish the panel while entering the room. It's unnecessary
-               for you to do it again while you introduce yourself.
-               Also, remember that if the interviewer has wished you by your name, don't repeat it by starting your
-               introduction with your name again. But if you wish to let them know your complete name, you can do so.
-               Ensuring that you take care of these two points showcases that you are not merely parroting a memorized
-               answer.
-           </div>
-       </div>
-        
-       <!-- Seperate Line-->
-        <div class="sline normal">
-            <img src="IMG_-4@2x.png" width=90%>
-        </div>
-
-
-        <!-- Projects-->
-        <div class="row">
-            <!-- Picture of the Project-->
-            <div class="column projectpic" style="padding-left:10%">
-               <img src="IMG_-2@2x.png" alt="my picture" width=80%>
-           </div>
-           <!-- Introduction of the Project-->
-           <div class="column projecttext text bodytext">
-               Firstly, don't wish them twice. You would obviously wish the panel while entering the room. It's unnecessary
-               for you to do it again while you introduce yourself.
-               Also, remember that if the interviewer has wished you by your name, don't repeat it by starting your
-               introduction with your name again. But if you wish to let them know your complete name, you can do so.
-               Ensuring that you take care of these two points showcases that you are not merely parroting a memorized
-               answer.
-           </div>
-       </div>
-
-       <!-- Thick Seperate Line-->
-       <div class="sline thick">
-            <img src="IMG_-4@2x.png" width=90%>
-        </div>
-
-    <!-- Section 2: Conference Proceeding -->
-
-    <h2 class="text" style="padding-left: 10.72%;">
-        Conference Proceedings
-    </h2>
-
-
-        <!-- Projects-->
-        <div class="row">
-             <div class="column projectpic" style="padding-left:10%">
-                <img src="IMG_-2@2x.png" alt="my picture" width=80%>
+            <div class="projectpic polaroid">
+                <img src="zyt.jpeg" alt="my picture" width=100%>
+                <div class="container">
+                    <p>Hardanger, Norway</p>
+                  </div>
             </div>
 
-            <div class="column projecttext text bodytext">
-                Firstly, don't wish them twice. You would obviously wish the panel while entering the room. It's unnecessary
-                for you to do it again while you introduce yourself.
-                Also, remember that if the interviewer has wished you by your name, don't repeat it by starting your
-                introduction with your name again. But if you wish to let them know your complete name, you can do so.
-                Ensuring that you take care of these two points showcases that you are not merely parroting a memorized
-                answer.
+            <div class="projectpic polaroid">
+                <img src="IMG_-2@2x.png" alt="my picture" width=100%>
+                <div class="container">
+                    <p>Hardanger, Norway</p>
+                  </div>
             </div>
         </div>
-        
-        <!-- Seperate Line-->
-        <div class="sline normal">
-            <img src="IMG_-4@2x.png" width=90%>
+
+        <div class="column">
+            <!-- Projects Pictures Column 2-->
+            <div class="projectpic polaroid">
+                <img src="zyt.jpeg" alt="my picture" width=100%>
+                <div class="container">
+                    <p>Hardanger, Norway</p>
+                  </div>
+            </div>
+
+            <div class="projectpic polaroid">
+                <img src="IMG_-2@2x.png" alt="my picture" width=100%>
+                <div class="container">
+                    <p>Hardanger, Norway</p>
+                  </div>
+            </div>
         </div>
 
 
-        <!-- Projects-->
-        <div class="row">
-            <!-- Picture of the Project-->
-            <div class="column projectpic" style="padding-left:10%">
-               <img src="IMG_-2@2x.png" alt="my picture" width=80%>
-           </div>
-           <!-- Introduction of the Project-->
-           <div class="column projecttext text bodytext">
-               Firstly, don't wish them twice. You would obviously wish the panel while entering the room. It's unnecessary
-               for you to do it again while you introduce yourself.
-               Also, remember that if the interviewer has wished you by your name, don't repeat it by starting your
-               introduction with your name again. But if you wish to let them know your complete name, you can do so.
-               Ensuring that you take care of these two points showcases that you are not merely parroting a memorized
-               answer.
-           </div>
-       </div>
-        
-       <!-- Seperate Line-->
-        <div class="sline normal">
-            <img src="IMG_-4@2x.png" width=90%>
-        </div>
+    </div>
 
+    <!-- Seperate Line-->
+    <div class="sline normal">
+        <img src="IMG_-4@2x.png" width=90%>
+    </div>
 
-        <!-- Projects-->
-        <div class="row">
-            <!-- Picture of the Project-->
-            <div class="column projectpic" style="padding-left:10%">
-               <img src="IMG_-2@2x.png" alt="my picture" width=80%>
-           </div>
-           <!-- Introduction of the Project-->
-           <div class="column projecttext text bodytext">
-               Firstly, don't wish them twice. You would obviously wish the panel while entering the room. It's unnecessary
-               for you to do it again while you introduce yourself.
-               Also, remember that if the interviewer has wished you by your name, don't repeat it by starting your
-               introduction with your name again. But if you wish to let them know your complete name, you can do so.
-               Ensuring that you take care of these two points showcases that you are not merely parroting a memorized
-               answer.
-           </div>
-       </div>
-    
 </body>
 
 </html>
